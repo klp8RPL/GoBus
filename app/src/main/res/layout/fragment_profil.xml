@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ProfilFragment">
+
+    <FrameLayout
+        android:id="@+id/btm_header"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:elevation="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="profilku"
+            android:textSize="30sp"
+            android:layout_marginStart="20dp"
+            android:textColor="#000000"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/p_head"
+        android:layout_below="@+id/btm_header">
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:backgroundTint="#FF0000"
+            android:background="@drawable/i_acc"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nama_anda"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="85dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+62**********65"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="41dp"
+            android:layout_marginStart="85dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="alamatemail@email.com"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="62dp"
+            android:layout_marginStart="85dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="edit"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="340dp"
+            android:textColor="#000000"/>
+
+        <View
+            android:layout_width="380dp"
+            android:layout_gravity="center"
+            android:layout_height="1dp"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="45dp"
+            android:backgroundTint="#000000"/>
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:layout_below="@+id/p_head">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="490dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/bg_kotak">
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:backgroundTint="#000000"
+                    android:background="@drawable/riwayat"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="riwayat"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="4dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@drawable/bg_button"
+                    android:layout_marginTop="50dp"
+                    android:backgroundTint="#D2DBE8"/>
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="65dp"
+                    android:layout_marginStart="5dp"
+                    android:backgroundTint="#000000"
+                    android:background="@drawable/help"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bantuan"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="64dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@drawable/bg_button"
+                    android:layout_marginTop="110dp"
+                    android:backgroundTint="#D2DBE8"/>
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:backgroundTint="#000000"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="125dp"
+                    android:background="@drawable/terms"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="syarat_dan_ketentuan"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="124dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@drawable/bg_button"
+                    android:layout_marginTop="170dp"
+                    android:backgroundTint="#D2DBE8"/>
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:backgroundTint="#000000"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="185dp"
+                    android:background="@drawable/group"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="tentang_kami"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="184dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@drawable/bg_button"
+                    android:layout_marginTop="230dp"
+                    android:backgroundTint="#D2DBE8"/>
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:backgroundTint="#000000"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="245dp"
+                    android:background="@drawable/setting"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="pengaturan"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="244dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@drawable/bg_button"
+                    android:layout_marginTop="280dp"
+                    android:backgroundTint="#D2DBE8"/>
+
+            </FrameLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
