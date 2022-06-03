@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment2"
+        android:icon="@drawable/i_home"
+        android:title="home"/>
+
+    <item
+        android:id="@+id/riwayat2Fragment"
+        android:icon="@drawable/riwayat"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:title="riwayat"/>
+
+    <item
+        android:id="@+id/profilFragment2"
+        android:icon="@drawable/i_acc"
+        android:title="profil"/>
+</menu>

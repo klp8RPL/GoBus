@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back_24">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:text="@string/pembayaran"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <FrameLayout
+            android:id="@+id/P_tiket"
+            android:layout_width="360dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_kotak"
+            android:padding="10dp">
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_baseline_notifications_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:text="@string/kami_hanya_melayani_pembayaran_melalui_transfer"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="50dp"
+                android:text="@string/silahkan_pilih_bank_yang_tersedia_di_bawah_ini"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/bayar_pada_counter_yang_sudah_ditunjuk_dalam_waktu_24_jam_menggunakan_nomor_rekening_yang_tertera"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/radio_group"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/bni"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="230dp"
+                    android:id="@+id/radio_button1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="-58dp"
+                    android:src="@drawable/bankbri"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/radio_button2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/mandiri"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="125dp"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/radio_button3"/>
+
+            </LinearLayout>
+        </RadioGroup>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/bg_button"
+            android:text="@string/lanjut"
+            app:backgroundTint="#FF0000" />
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+
+</LinearLayout>

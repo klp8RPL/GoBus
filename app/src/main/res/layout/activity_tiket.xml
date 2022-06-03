@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".TiketActivity">
+
+    <LinearLayout
+        android:id="@+id/btm_header"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_kotak2"
+        android:elevation="10dp"
+        android:padding="10dp">
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            android:background="@drawable/garuda" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/notifikasi" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <FrameLayout
+            android:layout_width="340dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_kotak"
+            android:layout_marginTop="10dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/penerima"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dari"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="16sp"/>
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_buss"
+                android:layout_marginTop="22dp"/>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Mangkutana"
+                 android:textColor="#000"
+                 android:textSize="16sp"
+                 android:layout_marginStart="50dp"
+                 android:layout_marginTop="30dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/bg_button"
+                android:layout_marginTop="60dp"
+                android:backgroundTint="#D2DBE8"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ke"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="70dp"
+                android:textSize="16sp"/>
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_buss"
+                android:layout_marginTop="92dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Makassar"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="100dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/bg_button"
+                android:layout_marginTop="130dp"
+                android:backgroundTint="#D2DBE8"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal berangkat"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="140dp"
+                android:textSize="16sp"/>
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_date"
+                android:layout_marginTop="162dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minggu, 27 Maret 2022"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="170dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/bg_button"
+                android:layout_marginTop="200dp"
+                android:backgroundTint="#D2DBE8"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jumlah Kursi"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="210dp"
+                android:textSize="16sp"/>
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_chair"
+                android:layout_marginTop="232dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 kursi"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="240dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/bg_button"
+                android:layout_marginTop="270dp"
+                android:backgroundTint="#D2DBE8"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anak 2 tahun ke atas wajib beli tiket"
+                android:layout_marginTop="270dp"
+                android:textSize="12sp"/>
+
+
+        </FrameLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="20dp"
+            android:text="Cari"
+            app:backgroundTint="#FF0000" />
+
+    </LinearLayout>
+
+</LinearLayout>

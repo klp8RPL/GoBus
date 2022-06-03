@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">GoBus</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="p_tiket"><u>Pembelian Tiket</u></string>
+    <string name="profilku">Profilku</string>
+    <string name="nama_anda">Nama Anda</string>
+    <string name="_62_65">+62**********65</string>
+    <string name="alamatemail_email_com">alamatemail@email.com</string>
+    <string name="edit">Edit</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="syarat_dan_ketentuan">Syarat dan Ketentuan</string>
+    <string name="tentang_kami">Tentang Kami</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="username">Username</string>
+    <string name="daftar">DAFTAR</string>
+    <string name="password">Password</string>
+    <string name="pemesanan_tiket">Pemesanan Tiket</string>
+    <string name="pembelian_tiket_berhasil">Pembelian Tiket Berhasil</string>
+    <string name="notifikasi">Notifikasi</string>
+    <string name="_25_maret_2022">25 Maret 2022</string>
+    <string name="pembelian_tiket_bus_dari_mangkutana_ke_makassar_berhasil_pada_25_03_22_09_41">Pembelian tiket bus dari mangkutana ke makassar berhasil pada 25/03/22 09:41</string>
+    <string name="pengiriman_barang">PENGIRIMAN BARANG</string>
+    <string name="menunggu_pembayaran">Menunggu pembayaran</string>
+    <string name="selesaikan_pembayaran_pada">Selesaikan pembayaran pada :</string>
+    <string name="_20_20_20">20:20:20</string>
+    <string name="todo">TODO</string>
+    <string name="_01_8055_60_61">01-8055-60-61</string>
+    <string name="salin">salin</string>
+    <string name="a_n_darman_h">a.n.Darman H</string>
+    <string name="penting">Penting</string>
+    <string name="kami_akan_segera_melakukan_konfirmasi_kepada_anda_jika_pembayaran_anda_telah_sukses_dilaksanakan_selanjutnya_mohon_tunggu_penerbitan_tiket_jika_proses_pembayaran_telah_selesai">Kami akan segera melakukan konfirmasi kepada Anda jika pembayaran Anda telah sukses dilaksanakan. Selanjutnya, mohon tunggu penerbitan tiket jika proses pembayaran telah selesai</string>
+    <string name="tata_cara_pembayaran">Tata cara pembayaran</string>
+    <string name="detail_bus">Detail Bus</string>
+    <string name="garuda_c">Garuda C</string>
+    <string name="ac_biasa">AC biasa</string>
+    <string name="informasi_utama">Informasi Utama</string>
+    <string name="minggu_27_maret_2022">Minggu, 27 Maret 2022</string>
+    <string name="_1_kursi">1 kursi</string>
+    <string name="mangkutana_makassar"><![CDATA[Mangkutana -> Makassar]]></string>
+    <string name="fasilitas">Fasilitas</string>
+    <string name="stop_kontak">Stop Kontak</string>
+    <string name="sandaran_kaki">Sandaran Kaki</string>
+    <string name="bagasi">Bagasi</string>
+    <string name="ac">AC</string>
+    <string name="total">Total :</string>
+    <string name="_1">1</string>
+    <string name="rp_147_000">Rp.147.000</string>
+    <string name="pilih_kursi">Pilih Kursi</string>
+    <string name="detail_penumpang">Detail Penumpang</string>
+    <string name="_17_00_03_00">17:00 - 03:00</string>
+    <string name="garuda_c_ac_biasa">Garuda C (AC biasa)</string>
+    <string name="informasi_penumpang">Informasi Penumpang</string>
+    <string name="nama">Nama</string>
+    <string name="umur">Umur</string>
+    <string name="kontak">Kontak</string>
+    <string name="lanjut_ke_pembayaran">Lanjut ke Pembayaran</string>
+    <string name="pembayaran">Pembayaran</string>
+    <string name="kami_hanya_melayani_pembayaran_melalui_transfer">kami hanya melayani pembayaran melalui transfer.</string>
+    <string name="silahkan_pilih_bank_yang_tersedia_di_bawah_ini">Silahkan pilih bank yang tersedia di bawah ini</string>
+    <string name="bayar_pada_counter_yang_sudah_ditunjuk_dalam_waktu_24_jam_menggunakan_nomor_rekening_yang_tertera">Bayar pada counter yang sudah ditunjuk dalam waktu 24 jam menggunakan nomor rekening yang tertera.</string>
+    <string name="lanjut">Lanjut</string>
+    <string name="melalui_atm">Melalui ATM</string>
+    <string name="internet_bangking_bni">Internet Bangking BNI</string>
+    <string name="mobile_bangking_bni">Mobile Bangking BNI</string>
+    <string name="sms_bangking_bni">SMS Bangking BNI</string>
+    <string name="cabang_teller">Cabang/Teller</string>
+
+    <string-array name="melalui_atm">
+        <item>1. Pilih menu “Lainnya”</item>
+        <item>2. Pilih “Transfer”</item>
+        <item>3. Pilih “Rekening Bank”</item>
+        <item>4. Pilih “Ke rekening BNI”</item>
+        <item>5. Masukkan nomor rekening yang telah dicantumkan di atas</item>
+        <item>6. Masukkan jumlah transfer sesuai nominal transaksi pemesanan</item>
+        <item>7. Konfirmasi pembayaran</item>
+    </string-array>
+
+</resources>

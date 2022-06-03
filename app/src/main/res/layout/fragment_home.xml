@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment">
+
+    <FrameLayout
+        android:id="@+id/btm_header"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_kotak2"
+        android:elevation="10dp"
+        android:layout_height="64dp"
+        android:padding="10dp">
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            android:background="@drawable/garuda"/>
+
+        <View
+            android:id="@+id/GoNotif"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/notifikasi"
+            android:layout_gravity="end"/>
+
+    </FrameLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btm_header">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="332dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rectangle"/>
+
+            <Button
+                android:id="@+id/GoTiket"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="360dp"
+                android:background="@drawable/bg_button"
+                android:text="Pemesanan Tiket"
+                app:backgroundTint="#FF0000" />
+
+            <Button
+                android:id="@+id/GoBarang"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="420dp"
+                android:background="@drawable/bg_button"
+                android:text="PENGIRIMAN BARANG"
+                app:backgroundTint="#FF0000"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

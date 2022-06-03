@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NotifActivity2">
+
+    <LinearLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_baseline_arrow_back_24"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="Notifikasi"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_below="@+id/head"
+        android:layout_centerInParent="true"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="25 maret 2022"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_kotak"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="pembelian tiket berhasil"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginStart="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="pembelian tiket bus dari mangkutana ke makassar berhasil pada 25 03 22 09 41"
+                android:textColor="#000"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="18dp"/>
+        </FrameLayout>
+    </ScrollView>
+
+</LinearLayout>

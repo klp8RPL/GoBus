@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:id="@+id/toolbar"
+            app:navigationIcon="@drawable/ic_baseline_close_24"
+            app:title="Pembayaran"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="410dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+                android:background="@drawable/bg_kotak"
+                android:padding="10dp">
+
+                <View
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/ic_baseline_access_time_filled_24"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/menunggu_pembayaran"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/selesaikan_pembayaran_pada"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/timeTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_20_20_20"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/bni"
+                android:contentDescription="@string/todo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_border"
+                    android:text="@string/_01_8055_60_61"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/bt_salin"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:text="@string/salin">
+
+                </Button>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_n_darman_h"
+                android:textColor="#000"
+                android:layout_marginStart="75dp"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <FrameLayout
+                    android:layout_width="360dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_kotak"
+                    android:padding="10dp"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/penting"
+                        android:textColor="#000"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kami_akan_segera_melakukan_konfirmasi_kepada_anda_jika_pembayaran_anda_telah_sukses_dilaksanakan_selanjutnya_mohon_tunggu_penerbitan_tiket_jika_proses_pembayaran_telah_selesai"
+                        android:textColor="#000"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="15sp"
+                        android:textStyle="normal"/>
+
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <FrameLayout
+                    android:layout_width="360dp"
+                    android:layout_height="350dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_kotak"
+                    android:padding="10dp"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tata_cara_pembayaran"
+                        android:textColor="#000"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="32dp">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/autoCompleteTextView"
+                            tools:viewBindingIgnore="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:inputType="none"
+                            android:text="@string/melalui_atm"
+                            tools:ignore="LabelFor" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="88dp">
+
+                        <AutoCompleteTextView
+                            tools:viewBindingIgnore="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:inputType="none"
+                            android:text="@string/internet_bangking_bni"
+                            tools:ignore="DuplicateIds,LabelFor" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="145dp">
+
+                        <AutoCompleteTextView
+                            tools:viewBindingIgnore="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:inputType="none"
+                            android:text="@string/mobile_bangking_bni"
+                            tools:ignore="DuplicateIds,LabelFor" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="200dp">
+
+                        <AutoCompleteTextView
+                            tools:viewBindingIgnore="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:inputType="none"
+                            android:text="@string/sms_bangking_bni"
+                            tools:ignore="DuplicateIds,LabelFor" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="258dp">
+
+                        <AutoCompleteTextView
+                            tools:viewBindingIgnore="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:inputType="none"
+                            android:text="@string/cabang_teller"
+                            tools:ignore="DuplicateIds,LabelFor" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

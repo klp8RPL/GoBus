@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.RiwayatFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        tools:ignore="UselessParent">
+
+
+        <FrameLayout
+            android:layout_width="360dp"
+            android:layout_height="142dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_kotak"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Garuda C"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="AC biasa"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="45dp"
+                android:text="Pool Garuda Mangkutana"
+                android:textColor="#000000"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="70dp"
+                android:text="Terminal Regional Makassar"
+                android:textColor="#000000"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="85dp"
+                android:text="27 Maret 2022, 17:00 - 03:00"
+                android:textSize="9sp" />
+
+            <View
+                android:layout_width="11dp"
+                android:layout_height="11dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="48dp"
+                android:background="@drawable/elips" />
+
+            <View
+                android:layout_width="11dp"
+                android:layout_height="11dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="73dp"
+                android:background="@drawable/elips2" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="58dp"
+                android:background="@drawable/bg_button" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="3dp"
+                android:text="Rp. 20.000"
+                android:textColor="#FF0000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="260dp"
+                android:layout_marginTop="110dp"
+                android:text="Lihat Detail >"
+                android:textColor="#000000"
+                android:textSize="9sp"
+                android:textStyle="bold" />
+
+
+
+
+        </FrameLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
